@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
-filepath = "/static/aboutMe.txt"
+filepath = "~/static/aboutMe.txt"
 
 # Function to read in details for page
 def readDetails(filepath):
